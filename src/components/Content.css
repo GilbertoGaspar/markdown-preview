@@ -1,0 +1,56 @@
+.content {
+  display: flex;
+  width: 100%;
+  height: 93vh;
+  flex-grow: 1;
+  margin-top: 1rem;
+  justify-content: space-evenly;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none;
+}
+
+.markdown-section {
+  padding: 0 0.25rem;
+}
+
+.markdown-title {
+  display: flex;
+  justify-content: center;
+}
+
+.markdown-section-textarea {
+  width: 40vw;
+  min-height: 100%;
+  overflow: visible;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #e8e6e6;
+  border-radius: 1rem;
+}
+
+.html-section {
+  padding: 0 0.25rem;
+}
+.html-title {
+  display: flex;
+  justify-content: center;
+}
+
+.html-section-textarea {
+  width: 40vw;
+  min-height: 100%;
+  padding: 0.5rem;
+  font-size: initial !important;
+  background-color: #e8e6e6;
+  border-radius: 1rem;
+}

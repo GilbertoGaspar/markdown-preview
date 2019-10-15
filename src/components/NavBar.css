@@ -1,0 +1,48 @@
+.nav-bar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #999;
+}
+
+.nav-bar-right-side {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-title {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.nav-bar-title:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.nav-bar-share-button {
+  transition: transform 0.2s;
+}
+
+.nav-bar-share-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.nav-bar-img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.nav-bar-img:hover {
+  cursor: pointer;
+  fill: #fff;
+}
+
+.nav-bar-link,
+.nav-bar-link:visited {
+  text-decoration: none;
+  color: inherit;
+}
